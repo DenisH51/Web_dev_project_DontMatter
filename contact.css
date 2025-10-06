@@ -1,0 +1,120 @@
+#navigation_bar {
+    position: fixed;  
+    top: 0;                
+    left: 0;                
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+#navigation_bar_text:hover {
+    background-color: #333;
+}
+#navigation_bar_text.active {
+    color: red;  
+    font-weight: bold; 
+}
+#navigation_bar_text:hover {
+    color: red;  
+}
+#background_color {
+    background-color: #222;
+}
+
+#navigation_bar li {
+    display: flex;
+    align-items: center;
+}
+
+#image_on_bar {
+    height: 60px; 
+}
+
+#navigation_bar_text {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#image_under_bar {
+    width: 100%;    
+    height: auto;     
+    display: block;
+}
+#Form_inq {
+    font-size: 50px;
+    color: rgb(224, 224, 224);
+    margin-top: 70px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+#navigation_bar li:last-child {
+    margin-right: 100px; 
+}
+
+#questionnaire {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    color: rgb(224, 224, 224);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#questionnaire form p {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#questionnaire label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#questionnaire input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#questionnaire button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(158, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#questionnaire button:hover {
+    background-color: #444;
+}
+
+#contact_inf p{
+    padding-top: 30px;
+    margin-bottom: 0;
+    font-size: medium;
+}
+#contact_inf ul{
+    list-style: none;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+#contact_inf {
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
