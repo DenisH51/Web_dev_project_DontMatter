@@ -72,18 +72,13 @@ h2{
 font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
-
-.week img{
-    width: 50%;
+    
+.week{
     margin-left: 50%;
     border-bottom: 5px;
     border-top: 5px;
-}
-    
-.week{
-    
     text-align: center;
-    font-size: large;
+    font-size: larger;
     margin: auto;
     
 }
@@ -112,5 +107,19 @@ table img {
 
 }
 
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
 
+section{
+    text-align: center;
+    font-size: large;
+    color: red;
+    font-style: oblique;
+}
+div img{
+    margin-left: 25%;
+    width: 50%;
+}
 
