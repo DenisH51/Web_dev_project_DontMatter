@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #navigation_bar {
     position: fixed;  
     top: 0;                
