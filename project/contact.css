@@ -107,17 +107,17 @@ body{
     background-color: #444;
 }
 
-#contact_inf p{
+footer p{
     padding-top: 30px;
     margin-bottom: 0;
     font-size: medium;
 }
-#contact_inf ul{
+footer ul{
     list-style: none;
     padding-bottom: 30px;
     margin-top: 0;
 }
-#contact_inf {
+footer {
     background-color: #333;
     color:white;
     text-align: center;
