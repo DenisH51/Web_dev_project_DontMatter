@@ -117,6 +117,7 @@ section{
     text-align: center;
     font-size: large;
     color: red;
+    font-weight: bold;
     font-style: oblique;
 }
 div img{
@@ -124,3 +125,6 @@ div img{
     width: 50%;
 }
 
+img {
+    border-radius: 20px;
+}
