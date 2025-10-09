@@ -1,6 +1,6 @@
 body{
     margin: 20px;
-    background-color: black;
+    background-color: #222;
     font-family: Arial, Helvetica, sans-serif;
 }
 #navigation_bar {
@@ -75,9 +75,9 @@ text-align: center;
 
 .week img{
     width: 50%;
-    height: auto;
-    display: block;
-    margin: auto;
+    margin-left: 50%;
+    border-bottom: 5px;
+    border-top: 5px;
 }
     
 .week{
