@@ -73,7 +73,7 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
 
-.weekcar{
+.week img{
     width: 50%;
     height: auto;
     display: block;
@@ -90,6 +90,10 @@ text-align: center;
 .week h1{
     text-align: center;
 }
+.week p{
+    text-align: center;
+}
+
 header{
     border-bottom:2px gray;
     margin-bottom: 5px; 
@@ -100,9 +104,12 @@ table{
     margin: auto;
 }
 table img {
-  width: 100%;
+  width: 400px;          
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
+
 }
 
 
