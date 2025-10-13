@@ -50,6 +50,7 @@ body{
     width: 100%;    
     height: auto;     
     display: block;
+    margin-top: 50px;
 }
 #Form_inq {
     font-size: 50px;
