@@ -1,8 +1,12 @@
 <!DOCTYPE html>
  <html lang="en">
 
-    <head> <meta charset="UTF-8">
+    <head> 
+        <meta charset="UTF-8">
         <meta name="Just Cars" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <title>Contact</title> <link rel="stylesheet" href="../css/contact.css">
     </head>
 
@@ -22,35 +26,35 @@
         Form for inquiries  
     </p>
     <div id="questionnaire">
-    <form>
-        <p>1. What is your name?</p>
-        <label>
-            <input type="text" name="name" placeholder="Enter your name">
-        </label>
+        <form>
+            <label for="name">1. What is your name?
+            <input id="name" type="text" name="name" placeholder="Enter your name">
+            </label>
+            
+            <label for="email">2. What is your email?
+            <input id="email" type="text" name="email" placeholder="Enter your email">
+            </label>
 
-        <p>2. What is your email?</p>
-        <label>
-            <input type="text" name="email" placeholder="Enter your email">
-        </label>
+            <label for="brand">3. Which car do you want to buy?
+            <input id="brand" type="text" name="brand" placeholder="Enter brand">
+            </label>
+            
+            <label for="own_car">4. Do you own a car?</label>
+            <input id="own_car" type="text" name="own_car" placeholder="Enter Yes or No">
 
-        <p>3. Which car do you want to buy</p>
-        <label>
-            <input type="text" name="brand" placeholder="Enter brand">
-        </label>
+            <fieldset style="border:none; padding:0; margin-top:20px;">
+            <legend style="font-size:18px; margin-bottom:5px;">5. Preferred types of cars:</legend>
+            <label><input type="radio" name="car_type" value="sports"> Sports</label>
+            <label><input type="radio" name="car_type" value="sedan"> Sedan</label>
+            <label><input type="radio" name="car_type" value="coupe"> Coupe</label>
+            <label><input type="radio" name="car_type" value="hatchback"> Hatchback</label>
+            </fieldset>
 
-        <p>4. Do you own a car?</p>
-        <label><input type="text" name="own_car" placeholder="Enter Yes or No"></label>
-        
-
-        <p>5. Preferred types of cars:</p>
-        <label><input type="radio" name="car_type" value="sports"> Sports</label>
-        <label><input type="radio" name="car_type" value="sedan"> Sedan</label>
-        <label><input type="radio" name="car_type" value="coupe"> Coupe</label>
-        <label><input type="radio" name="car_type" value="Hatchback"> Hatchback</label>
-        <br><br>
-        <button type="submit">Submit</button>
-    </form>
+            <br>
+            <button type="submit" aria-label="Submit the inquiry form">Submit</button>
+        </form>
     </div>
+
 </body>
     <footer>
         <p id="cont">

@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto';
 }
+
 #navigation_bar {
     position: fixed;  
     top: 0;                
@@ -70,7 +74,7 @@ body{
     background-color: #333;
     color: rgb(224, 224, 224);
     border-radius: 10px;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #questionnaire form p {
@@ -122,4 +126,45 @@ footer {
     background-color: #333;
     color:white;
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    #navigation_bar {
+        justify-content: center; 
+        padding: 10px;
+    }
+
+    #navigation_bar li {
+        margin: 5px; 
+    }
+
+    #navigation_bar_text {
+        font-size: large; 
+        padding: 0px 30px; 
+    }
+
+    #image_on_bar {
+        height: 30px;
+        width: 140px;
+        margin-left: 90px;
+    }
+    
+    #questionnaire {
+        width: 80%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    #Form_inq {
+        font-size: 32px;
+        margin-top: 50px;
+    }
+
+    #questionnaire label, #questionnaire input[type="text"], #questionnaire button {
+        font-size: 16px;
+    }
+
+    #questionnaire button {
+        padding: 8px 15px;
+    }
 }
