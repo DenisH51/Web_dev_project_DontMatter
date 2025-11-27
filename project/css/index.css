@@ -143,3 +143,26 @@ footer {
 img {
     border-radius: 20px;
 }
+@media (max-width: 700px) {
+    #navigation_bar {
+        justify-content: center; 
+        padding: 10px;
+    }
+
+    #navigation_bar li {
+        margin: 5px; 
+    }
+
+    #navigation_bar_text {
+        font-size: large; 
+        padding: 0px 30px; 
+    }
+
+    #image_on_bar {
+        height: 30px;
+        width: 140px;
+        margin-left: 90px;
+    }
+    
+
+}
