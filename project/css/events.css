@@ -1,0 +1,145 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: 'Roboto';
+}
+
+#navigation_bar {
+    position: fixed;  
+    top: 0;                
+    left: 0;                
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    list-style: none;
+    padding: 0 20px;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+#navigation_bar_text:hover {
+    background-color: #333;
+}
+#navigation_bar_text.active {
+    color: red;  
+    font-weight: bold; 
+}
+#navigation_bar_text:hover {
+    color: red;  
+}
+#background_color {
+    background-color: #222;
+}
+
+#navigation_bar li {
+    display: flex;
+    align-items: center;
+}
+
+#image_on_bar {
+    height: 60px; 
+}
+
+#navigation_bar_text {
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: xx-large;
+    border-radius: 5px;
+}
+
+#image_under_bar {
+    width: 100%;    
+    height: auto;     
+    display: block;
+    margin-top: 50px;
+}
+#Form_inq {
+    font-size: 50px;
+    color: rgb(224, 224, 224);
+    margin-top: 70px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+#navigation_bar li:last-child {
+    margin-right: 100px; 
+}
+
+#questionnaire {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #333;
+    color: rgb(224, 224, 224);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p{
+    padding-top: 30px;
+    margin-bottom: 0;
+    font-size: medium;
+}
+footer ul{
+    list-style: none;
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+footer {
+    background-color: #333;
+    color:white;
+    text-align: center;
+}
+
+.content {
+    padding-top: 120px;
+    max-width: 900px;
+    margin: 0 auto;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.event {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 700px) {
+    #navigation_bar {
+        justify-content: center; 
+        padding: 10px;
+    }
+
+    #navigation_bar li {
+        margin: 5px; 
+    }
+
+    #navigation_bar_text {
+        font-size: large; 
+        padding: 0px 30px; 
+    }
+
+    #image_on_bar {
+        height: 30px;
+        width: 140px;
+        margin-left: 90px;
+    }
+    
+    
+}
