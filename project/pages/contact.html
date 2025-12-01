@@ -26,35 +26,44 @@
     <p id="Form_inq">
         Form for inquiries  
     </p>
-    <div id="questionnaire">
-        <form>
-            <label for="name">1. What is your name?
-            <input id="name" type="text" name="name" placeholder="Enter your name">
-            </label>
-            
-            <label for="email">2. What is your email?
-            <input id="email" type="text" name="email" placeholder="Enter your email">
-            </label>
+<div id="questionnaire">
+    <form id="contactForm" novalidate>
 
-            <label for="brand">3. Which car do you want to buy?
-            <input id="brand" type="text" name="brand" placeholder="Enter brand">
-            </label>
-            
-            <label for="own_car">4. Do you own a car?</label>
-            <input id="own_car" type="text" name="own_car" placeholder="Enter Yes or No">
+        <label for="firstName">First Name
+            <input id="firstName" type="text" name="firstName" placeholder="Enter your first name" required>
+        </label>
 
-            <fieldset style="border:none; padding:0; margin-top:20px;">
-            <legend style="font-size:18px; margin-bottom:5px;">5. Preferred types of cars:</legend>
-            <label><input type="radio" name="car_type" value="sports"> Sports</label>
-            <label><input type="radio" name="car_type" value="sedan"> Sedan</label>
-            <label><input type="radio" name="car_type" value="coupe"> Coupe</label>
-            <label><input type="radio" name="car_type" value="hatchback"> Hatchback</label>
-            </fieldset>
+        <label for="lastName">Last Name
+            <input id="lastName" type="text" name="lastName" placeholder="Enter your last name" required>
+        </label>
 
-            <br>
-            <button type="submit" aria-label="Submit the inquiry form">Submit</button>
-        </form>
-    </div>
+        <label for="email">Email Address
+            <input id="email" type="text" name="email" placeholder="Enter your email" required>
+        </label>
+
+        <label for="inquiry">Reason for Inquiry
+            <select id="inquiry" name="inquiry" required>
+                <option value="">Select a reason</option>
+                <option value="general">General Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Technical Support</option>
+            </select>
+        </label>
+
+        <label for="message">Message
+            <textarea id="message" name="message" rows="4" placeholder="Type your message" required></textarea>
+        </label>
+
+        <p id="errorMsg" style="color: red; display:none; font-size: 16px; margin-top: 10px;">
+            Please fill all fields correctly.
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+<script src="../JavaScript/contact.js"></script>
 
 </body>
     <footer>

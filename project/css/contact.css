@@ -128,6 +128,38 @@ footer {
     text-align: center;
 }
 
+#questionnaire select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222;
+    color: rgb(224, 224, 224);
+    font-size: 18px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#questionnaire textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: vertical;
+    background-color: #222;
+    color: rgb(224, 224, 224);
+    font-size: 18px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#questionnaire textarea:focus,
+#questionnaire select:focus,
+#questionnaire input:focus {
+    outline: 2px solid rgb(158, 0, 0);
+}
+
 @media (max-width: 700px) {
     #navigation_bar {
         justify-content: center; 
